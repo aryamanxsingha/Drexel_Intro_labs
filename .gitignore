@@ -49,3 +49,15 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# Secrets and local env (security sweep)
+.env
+.env.*
+.env.local
+.env.development
+*.pem
+*.key
+.vercel
+.netlify
+!.env.example
+!.env.sample
